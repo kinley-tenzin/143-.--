@@ -283,7 +283,7 @@ function MusicBtn() {
   };
   return (
     <>
-      <audio ref={audioRef} loop src="src/public/musics/Ariana Grande - hate that i made you love me (official lyric video) [v1t4MTqdfyI].mp3" />
+      <audio ref={audioRef} loop src="/musics/Ariana Grande - hate that i made you love me (official lyric video) [v1t4MTqdfyI].mp3" />
       <button onClick={toggle} title={muted ? "Play music" : "Mute music"} style={{
         position: "fixed", top: "16px", right: "16px", zIndex: 999,
         background: "rgba(255,255,255,0.82)", backdropFilter: "blur(10px)",
