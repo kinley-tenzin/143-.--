@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
-import musicFile from "../public/musics/Ariana Grande - hate that i made you love me (official lyric video) [v1t4MTqdfyI].mp3";
+import musicFile from "../public/musics/Ariana Grande - hate that i made you love me (official lyric video) [v1t4MTqdfyI].mp3?url";
 
 // ═══════════════════════════════════════════════════════════════════════════════
 //  CUSTOMIZATION — edit everything in this block
