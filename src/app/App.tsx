@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
+const musicSrc = new URL("public/musics/Ariana Grande - hate that i made you love me (official lyric video) [v1t4MTqdfyI].mp3", import.meta.url).href;
 // ═══════════════════════════════════════════════════════════════════════════════
 //  CUSTOMIZATION — edit everything in this block
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -9,12 +10,12 @@ const MAIN_QUESTION = "Will you be my FOREVER?";
 // Replace src values with your own image paths or URLs.
 // Place images in /public/ folder, then use "/photo1.jpg" etc.
 const PHOTOS = [
-  { src: "src/public/images/her6.jpeg", caption: "One of my favorite moments, Her, the Kurta, & absolute magic✨" },
-  { src: "src/public/images/her2.jpeg", caption: "This smile means everything🥹" },
-  { src: "src/public/images/her3.jpeg", caption: "A memory I love - Chekpost dinner hit different😌" },
-  { src: "src/public/images/her4.jpeg", caption: "More memories coming soon - The Beach and Volleyball!!" },
-  { src: "src/public/images/her5.jpeg", caption: "A day I'll never forget ...KTtttt!! I love you😭" },
-  { src: "src/public/images/her7.jpeg", caption: "You and me, ALWAYS💫🍀" },
+  { src: "public/images/her6.jpeg", caption: "One of my favorite moments, Her, the Kurta, & absolute magic✨" },
+  { src: "public/images/her2.jpeg", caption: "This smile means everything🥹" },
+  { src: "public/images/her3.jpeg", caption: "A memory I love - Chekpost dinner hit different😌" },
+  { src: "public/images/her4.jpeg", caption: "More memories coming soon - The Beach and Volleyball!!" },
+  { src: "public/images/her5.jpeg", caption: "A day I'll never forget ...KTtttt!! I love you😭" },
+  { src: "public/images/her7.jpeg", caption: "You and me, ALWAYS💫🍀" },
 ];
 
 const REASONS = [
@@ -282,7 +283,7 @@ function MusicBtn() {
   };
   return (
     <>
-      <audio ref={audioRef} loop src="/musics/Ariana Grande - hate that i made you love me (official lyric video) [v1t4MTqdfyI].mp3" />
+      <audio ref={audioRef} loop preload="auto" src={musicSrc} />
       <button onClick={toggle} title={muted ? "Play music" : "Mute music"} style={{
         position: "fixed", top: "16px", right: "16px", zIndex: 999,
         background: "rgba(255,255,255,0.82)", backdropFilter: "blur(10px)",
