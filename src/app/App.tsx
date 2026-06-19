@@ -10,12 +10,12 @@ const MAIN_QUESTION = "Will you be my FOREVER?";
 // Replace src values with your own image paths or URLs.
 // Place images in /public/ folder, then use "/photo1.jpg" etc.
 const PHOTOS = [
-  { src: "public/images/her6.jpeg", caption: "One of my favorite moments, Her, the Kurta, & absolute magic✨" },
-  { src: "public/images/her2.jpeg", caption: "This smile means everything🥹" },
-  { src: "public/images/her3.jpeg", caption: "A memory I love - Chekpost dinner hit different😌" },
-  { src: "public/images/her4.jpeg", caption: "More memories coming soon - The Beach and Volleyball!!" },
-  { src: "public/images/her5.jpeg", caption: "A day I'll never forget ...KTtttt!! I love you😭" },
-  { src: "public/images/her7.jpeg", caption: "You and me, ALWAYS💫🍀" },
+  { src: "/images/her6.jpeg", caption: "One of my favorite moments, Her, the Kurta, & absolute magic✨" },
+  { src: "/images/her2.jpeg", caption: "This smile means everything🥹" },
+  { src: "/images/her3.jpeg", caption: "A memory I love - Chekpost dinner hit different😌" },
+  { src: "/images/her4.jpeg", caption: "More memories coming soon - The Beach and Volleyball!!" },
+  { src: "/images/her5.jpeg", caption: "A day I'll never forget ...KTtttt!! I love you😭" },
+  { src: "/images/her7.jpeg", caption: "You and me, ALWAYS💫🍀" },
 ];
 
 const REASONS = [
