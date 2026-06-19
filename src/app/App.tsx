@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
-const musicSrc = new URL("public/musics/Ariana Grande - hate that i made you love me (official lyric video) [v1t4MTqdfyI].mp3", import.meta.url).href;
+const musicSrc = new URL("D:\\Interactive Valentine Proposal Website\\public\\musics\\Ariana Grande - hate that i made you love me (official lyric video) [v1t4MTqdfyI].mp3", import.meta.url).href;
 // ═══════════════════════════════════════════════════════════════════════════════
 //  CUSTOMIZATION — edit everything in this block
 // ═══════════════════════════════════════════════════════════════════════════════

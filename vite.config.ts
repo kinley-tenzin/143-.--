@@ -24,13 +24,14 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/",
   resolve: {
     alias: {
       // Alias @ to the src directory
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base: "/143-.--/",
+  
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv', '**/*.mp3'],
 })
