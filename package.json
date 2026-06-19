@@ -7,7 +7,6 @@
     "build": "vite build",
     "dev": "vite",
     "start": "serve --single --listen $PORT dist"
-}
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
